@@ -1,3 +1,57 @@
+# Employee Management System - Git Ignore Configuration
+
+# Build and Compilation
+# Ignore compiled object files and binaries from .NET projects
 **/obj/ 
 **/bin/ 
+
+# Visual Studio
+# IDE configuration and user-specific settings
 **/.vs/ 
+
+# Dependencies
+# Node modules and package dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment Variables
+# Keep sensitive configuration out of version control
+.env
+.env.local
+.env.*.local
+appsettings.local.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Runtime
+# Temporary files during execution
+temp/
+tmp/
+cache/
+dist/
+
+# Database
+# SQLite and other local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
